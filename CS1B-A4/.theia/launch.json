@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Phase1App",
+      "request": "launch",
+      "mainClass": "Phase1App",
+      "projectName": "CS1B-A4",
+      "vmArgs": "--module-path /Library/Java/javafx-sdk-25/lib/ --add-modules javafx.controls,javafx.fxml,javafx.graphics"
+    },
+    {
+      "type": "java",
+      "name": "JavaFXInitializerApp",
+      "request": "launch",
+      "mainClass": "JavaFXInitializerApp",
+      "projectName": "CS1B-A4",
+      "vmArgs": "--module-path /Library/Java/javafx-sdk-25/lib/ --add-modules javafx.controls,javafx.fxml,javafx.graphics"
+    },
+    {
+      "type": "java",
+      "name": "TestSuite",
+      "request": "launch",
+      "mainClass": "TestSuite",
+      "projectName": "CS1B-A4",
+      "vmArgs": "--module-path /Library/Java/javafx-sdk-25/lib/ --add-modules javafx.controls,javafx.fxml,javafx.graphics"
+    },
+    {
+      "type": "java",
+      "name": "Foothill",
+      "request": "launch",
+      "mainClass": "Foothill",
+      "projectName": "CS1B-A4",
+      "vmArgs": "--module-path /Library/Java/javafx-sdk-25/lib/ --add-modules javafx.controls,javafx.fxml,javafx.graphics"
+    }
+  ]
+}
